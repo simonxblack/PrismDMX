@@ -9,10 +9,9 @@ East Bavarian Technical University Amberg-Weiden
 PrismDMX is a universal Modulator for CIE1931 fixtures in Unreal Engine. It enables external DMX console override (e.g., Blackout) for DMX Pixel Mapping in Unreal Engine via a custom Shifter Address. It handles regular and matrix features directly.
 
 ## Features
-- **External Modulator / Override:** Switch dynamically between UE Pixel Mapping output and external Lighting Console controls, like Blackout or Dimmer control.
+- **External Modulator / Override:** Switch dynamically between UE Pixel Mapping output and external Lighting Console control.
 - **Support for Matrix Fixtures:** Allows handling of matrix/multicell fixture types.
 - **Cross-Platform & Version Independent:** Designed with C++ to easily work on Windows, Linux, and macOS platforms. Keep it updated by simply recompiling it for new major UE versions.
-- **nDisplay Support:** Perfect for Virtual Production LED Volumes. The stateless design enables seamless multi-node DMX processing across nDisplay clusters matching UE's standard pixel mapping mechanism.
 
 ## Installation Instructions
 
