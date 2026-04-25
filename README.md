@@ -44,7 +44,7 @@
 
 ## Usage
 
-Once enabled, you can add `PrismDMX` as a **Modulator class** within your DMX Library or Fixture settings.
+Once enabled, you can add `PrismDMX` as a **Output Modulator** within your DMX Pixel Mapping Plugin settings.
 
 ### Operating Modes
 The behavior of the modulator is dynamically controlled via the **Shifter** value:
