@@ -56,7 +56,7 @@ The behavior of the modulator is dynamically controlled via the **Shifter** valu
 ### Intensity Recalculation
 The **Shifter** acts as a subtractive regulator, while the **Console Intensity** serves as a multiplicative factor.
 
-**Normal Position (1:1 PM Output):**
+**Normal Position (1:1 Pixel Mapping Output):**
 * **Shifter:** 100%
 * **Console Intensity:** 50% (assuming the default Multiplier of 2)
 
