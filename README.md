@@ -9,6 +9,7 @@
 * **University:** East Bavarian Technical University Amberg-Weiden (OTH AW)
 * **Bachelor Thesis:** *"Workflow Development and Testing for DMX Pixel Mapping in Virtual Production with Unreal Engine"*
 * **Degree:** Media Production and Media Technology (B.Eng.)
+* **Implementation:** Conceptual logic developed by the author; Large Language Models (AI) were utilized as assistive tools for technical C++ implementation and syntax optimization.
 
 ---
 
