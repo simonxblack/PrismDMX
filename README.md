@@ -57,7 +57,7 @@
 
 ## ⚙️ Setup
 
-To integrate **PrismDMX** into your workflow, follow these steps for both your lighting console and Unreal Engine:
+To integrate **PrismDMX** into your DMX Pixel Mapping workflow, follow these steps for both your lighting console and Unreal Engine:
 
 ### 🎛️ Lighting Console Configuration
 * **Protocol Type:** sACN
