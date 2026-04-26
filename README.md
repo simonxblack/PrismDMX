@@ -7,9 +7,22 @@
 ### ℹ️ Project Information
 * **Developer:** Simon Schwarz
 * **University:** East Bavarian Technical University Amberg-Weiden (OTH AW)
-* **Bachelor Thesis:** *"Workflow Development and Testing for DMX Pixel Mapping in Virtual Production with Unreal Engine"*
 * **Degree:** Media Production and Media Technology (B.Eng.)
+* **Bachelor Thesis:** *"Workflow Development and Testing for DMX Pixel Mapping in Virtual Production with Unreal Engine"*
 * **Implementation:** Conceptual logic developed by the author; Large Language Models (AI) were utilized as assistive tools for technical C++ implementation and syntax optimization.
+
+---
+
+## 📍 Table of Contents
+* [📖 Overview](#-overview)
+* [✨ Features](#-features)
+* [📥 Installation](#-installation)
+* [⚙️ Setup](#%EF%B8%8F-setup)
+    * [🎛️ Lighting Console Configuration](#%EF%B8%8F-lighting-console-configuration)
+    * [💻 Unreal Engine Configuration](#-unreal-engine-configuration)
+* [🚀 Usage](#-usage)
+    * [🔄 Operating Modes](#-operating-modes)
+    * [🧮 Intensity Recalculation](#-intensity-recalculation)
 
 ---
 
@@ -46,11 +59,22 @@
 
 To integrate **PrismDMX** into your workflow, follow these steps for both your lighting console and Unreal Engine:
 
-### 🎛️ 1. Lighting Console Configuration
+### 🎛️ Lighting Console Configuration
+* **Protocol Type:** sACN
 * **Create Shifter:** Patch one or more **Shifters** (configured as a standard **Dimmer** fixture) into any desired DMX universe.
 * **Fixture Patching:** All Pixel Mapping fixtures must be assigned to a separate DMX universe. Multiple Pixel Mapping fixtures can share the same universe, but no non-Pixel Mapping fixtures can be used within it.
 
-### 💻 2. Unreal Engine Configuration
+### 💻 Unreal Engine Configuration
+
+#### 📂 DMX Project Settings
+Configure the global settings under `Project Settings -> Plugins -> DMX`:
+* **Protocol Type:** sACN
+* **sACN Priority:** Set the Unreal Engine priority **higher** than your lighting console priority.
+* **Communication Type:** Unicast
+* **Priority Strategy:** None
+* **Input Into Engine:** Disabled
+
+#### 🛠️ Plugin Setup
 * **Patch Alignment:** The fixture configuration (Patch, Universe, and Mode) in your Unreal Engine setup must match the setup of your lighting console exactly.
 * **Color Space Mode:** Ensure that the **Color Space Output Mode** in your DMX Pixel Mapping Plugin settings is set to **CIE 1931 xyY**.
 * **Fixture Setup:** For each fixture intended for Pixel Mapping, perform the following settings:
