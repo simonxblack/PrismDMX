@@ -109,7 +109,7 @@ The **Shifter** acts as a subtractive regulator, while the **Console Intensity**
 
 #### Formula:
 
-$$New \ Intensity = (Pixel \ Mapping \ Intensity \cdot Multiplier \cdot Console \ Intensity) + Shifter - 1 \ Value$$
+$$New \ Intensity = (Pixel \ Mapping \ Intensity \cdot Multiplier \cdot Console \ Intensity) + Shifter \ Value - 1$$
 
 > [!NOTE]
 > The Multiplier is set to **2** by default and can be adjusted within the **PrismDMX Settings** in the Unreal Editor.
